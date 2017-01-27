@@ -1,0 +1,30 @@
+#primary-menu-trigger {
+    left: 50% !important;
+    margin-left: -25px !important;
+}
+
+.main-heading-block h1, .main-heading-block h2 {
+    color: white;
+}
+
+.main-heading-block h1 {
+    font-size: 48px;
+}
+
+@media (max-width: 1000px) {
+    .main-heading-block h1 {
+        font-size: 40px;
+    }
+    .main-heading-block h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 800px) {
+    .main-heading-block h1 {
+        font-size: 25px;
+    }
+    .main-heading-block h2 {
+        font-size: 18px;
+    }
+}
