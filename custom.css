@@ -46,3 +46,42 @@
 }
 
 .dark .footer-big-contacts { color: rgba(255,255,255,0.8); }
+
+.team-content {
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+}
+
+@media (max-width: 991px) {
+    .time-table h5 {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+#primary-menu > div > .sf-js-enabled.show {
+    margin-bottom: 20px !important;
+}
+
+.faqs .togglet {
+    padding-left: 0;
+    font-size: 17px !important;
+}
+
+.faqs .toggle .togglec {
+    padding-top: 25px;
+}
+
+.faqs .toggle .togglec p:last-child {
+    margin-bottom: 0 !important;
+}
+
+.faqs .togglet img {
+    max-width: 36px;
+    margin-right: 10px;
+}
+
+#footer > div.container > div > div > .visible-sm.line {
+    margin: 30px !important;
+}
